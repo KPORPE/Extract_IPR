@@ -174,7 +174,7 @@ os.remove(csv_file)
 print(f'{xlsx_file} saved and closed.')
 
 end_time = time.time()
-elapsed_time = end_time - elapsed_time
+elapsed_time = end_time - start_time - elapsed_time
 minutes = int(elapsed_time // 60)
 seconds = int(elapsed_time % 60)
 print(f'PI calculation and compilation completed in {minutes} minutes and {seconds} seconds')
