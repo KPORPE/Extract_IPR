@@ -1,0 +1,6 @@
+WellIPRReport {
+	WellNames=["well1" "well2" "well3"]
+	PressureTypes=[BOTTOM_HOLE_PRESSURE BOTTOM_HOLE_PRESSURE BOTTOM_HOLE_PRESSURE]
+	NumberIPRPoints=5
+	ReportFrequency=REPORT_TIME
+}
